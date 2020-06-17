@@ -14,6 +14,8 @@ while True:
     pos += len(subs)
 if flag == False:
     print('Position Not Found')
+print('Total no of occurrences :',s.count(subs))  
+
 # Alternative
 # s=input("Enter main string:")
 # subs=input("Enter sub string:")
