@@ -14,3 +14,12 @@ while True:
     pos += len(subs)
 if flag == False:
     print('Position Not Found')
+# Alternative
+# s=input("Enter main string:")
+# subs=input("Enter sub string:")
+# i = s.find(subs)
+# if i == -1:
+#     print("Position Not Found :")
+# while i != -1:
+#     print('{} present at index: {}'.format(subs,i))
+#     i = s.find(subs,i+len(subs),len(s))  # Search the remaining string
