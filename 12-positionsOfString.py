@@ -11,6 +11,6 @@ while True:
         break
     print("Position Found at :",pos)
     flag = True
-    pos += 1
+    pos += len(subs)
 if flag == False:
     print('Position Not Found')
