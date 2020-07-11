@@ -1,5 +1,4 @@
-# we can’t modify/delete static variable by using obj ref or self. But we can access 
-# static variables by using obj ref, self and class
+# DELETING STATIC VARIABLE
 class Test:
     a = 10
     def __init__(self): # Constructor 
