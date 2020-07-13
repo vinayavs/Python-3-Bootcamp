@@ -1,4 +1,4 @@
-# ACCESSING MEMBERS OF ONE CLASS FROM INSIDE CLASS
+# ACCESSING MEMBERS OF ONE CLASS FROM ANOTHER CLASS
 class Employee:
     def __init__(self,name,sal): # Constructor
         self.name = name
