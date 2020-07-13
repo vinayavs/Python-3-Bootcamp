@@ -1,4 +1,4 @@
-# INSTACNCE METHOD ALWAYA TALKING ABOUT A PARTICULAR OBJECT
+# INSTACNCE METHOD ALWAYS TALKING ABOUT A PARTICULAR OBJECT
 # Methods having instance variable are called as Instance Methods
 class Student:
     def __init__(self, name, marks):
@@ -14,6 +14,12 @@ class Student:
             print(self.name,'=> B GRADE')
         else:
             print(self.name,'=> FAILED')
-s = Student('vinay',98)
-s.display()
-s.grade()
+
+n = int(input('ENTER NO OF STUDENTS :'))
+for i in range(n):
+    name = input('ENTER STUDENT NAME :')
+    marks = int(input('ENTER STUDNET MARKS '))
+    s = Student(name,marks)
+    s.display()
+    s.grade()
+    print()    
