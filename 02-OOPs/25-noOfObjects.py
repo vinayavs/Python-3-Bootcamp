@@ -7,7 +7,7 @@ class Test:
         Test.count = Test.count + 1  # To access static variable inside constructor
     @classmethod
     def getNoOfObjects(cls):
-       print('NO OF OBJS FOR GIVEN CLASS :',cls.count)
+       print('NO OF OBJS FOR GIVEN CLASS :',cls.count) # Test.count
 
 Test.getNoOfObjects()  # 0
 t1 = Test() # Obj Created, Constructor executed automatically
