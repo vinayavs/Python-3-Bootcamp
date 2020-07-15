@@ -17,13 +17,13 @@ print('END OF APPLICATION')
 # Alll the objector are eligible for DC at the end of the application, so Destructor executed after 10 secs
 
 # 
-t = Test()
-t = None  # Test() doest have any reference now, so it is elegible for DC, desctructor executed
-time.sleep(10)
-print('END OF THE APPLICATION')
+# t = Test()
+# t = None  # Test() doest have any reference now, so it is elegible for DC, desctructor executed
+# time.sleep(10)
+# print('END OF THE APPLICATION')
 
 
-t1 = Test()
-t2 = Test()
-time.sleep(10)
-print('END OF THE APPLICATION') # 2 TIMES DESTRUCTOR EXECUTED.
+# t1 = Test()
+# t2 = Test()
+# time.sleep(10)
+# print('END OF THE APPLICATION') # 2 TIMES DESTRUCTOR EXECUTED.

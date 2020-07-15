@@ -8,7 +8,11 @@ class Test:
     def __del__(self):
         print('OBJECT DESTROYED')
 l = [Test(), Test(), Test()] # list of 3 objects
-del l
 print('list deleted, 3 objects are elegible for GC now')
+del l
 time.sleep(10)
 print('END OF THE APPLICATION')
+
+# l = [Test(), Test(), Test()] # list of 3 objects
+# print('END OF THE APPLICATION')
+# print('EOA, All objects are elegible for GC now automatically')
