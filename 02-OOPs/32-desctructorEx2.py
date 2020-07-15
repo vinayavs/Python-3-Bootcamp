@@ -7,14 +7,17 @@ class Test:
     def __del__(self):
         print('*****DESTRUCTOR EXECUTED*****')
 
-t1 = Test()
+t1 = Test()  # Constructor Executed 
 t2 = t1
 t3 = t2
-t4 = Test()
+t4 = Test()  # Constructor Executed
 del t1
+time.sleep(5)
 print('Obj not destroyed after deleting t1')
 del t2
+time.sleep(5)
 print('Obj not destroyed after deleting t2')
+time.sleep(5)
 print('Removing Last Reference...')
 del t3
 time.sleep(10)  
