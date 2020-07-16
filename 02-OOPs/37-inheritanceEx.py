@@ -13,7 +13,7 @@ class Parent:
     @staticmethod
     def m3():
         print('Parent Static Method')
-class Child(Parent):
+class Child(Parent): # Inheriting Parent Class
     pass
 
 c = Child() # No Constructor,So Parent Constructor will be inherited
