@@ -29,7 +29,7 @@ class Employee(Person):
         print('Emp No :',self.eno)
         print('Emp Sal :',self.esal)
         print('Emp Car Info =>')
-        self.car.getInfo()  # Using Car functionality because we have reference 
+        self.car.getInfo()  # Using Car functionality Cuz we have reference, Composition 
         
 car = Car('Honda','CRV','Black')
 emp = Employee('Vin',21,1234,10000,car)
