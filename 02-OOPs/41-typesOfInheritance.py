@@ -72,10 +72,10 @@ c.m3()
 # COMBINATION OF SINGLE, MULTI-LEVEL, MULTIPLE, HIERARCHICAL
 # MRO - METHOD RESOLUTION ORDER
 # PYTHON WONT SUPPORT CYCLIC INHERITANCE
-class A(A):  # Cyclic Inheritance
-    pass
-# Cyclic Inheritance
-class A(B):
-    pass
-class B(A):
-    Pass
+# class A(A):  # Cyclic Inheritance
+#     pass
+# # Cyclic Inheritance
+# class A(B):
+#     pass
+# class B(A):
+#     Pass
